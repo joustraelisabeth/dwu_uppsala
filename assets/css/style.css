@@ -1,0 +1,261 @@
+/* ----------------------------------------------------Backgrounds */
+body {
+  overflow: hidden;
+}
+
+.bg-home {   
+background-image: url("../images/beauty_wild_2.jpg");
+position: absolute;
+height: 100vh;
+width: 100vw;
+margin-top: -10px;
+margin-left: -8px; 
+
+}
+
+/* ----------------------------------------------------Menu */
+
+.menu-design li {
+    
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;   
+}
+
+.menu-design a {
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menu-design a:hover {
+    text-decoration: none;
+    color:#274F35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+#displayed-file {
+   text-decoration: underline overline solid;
+}
+
+/* ----------------------------------------------------Info-text Home */
+
+.intro-text-square {
+    height: 60vh;
+    width: 70vw;
+    background-color:rgba(192,192,192,0.7);
+    position: relative;
+    margin-left: 20vw; 
+    margin-right:10vw;
+    margin-top: 20vh;
+    margin-bottom:30vh;
+    text-align: center;
+    border-radius: 5rem;
+    
+}
+
+.call-out  {
+    color:#274F35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+.intro-text-square p {
+    color:#274F35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 20px; 10px;
+}
+
+/* ----------------------------------------------------Sign Up button home*/
+
+.signup button {
+    background:#fff;
+    color:#274F35;
+    border-color: #274F35; 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 2vh;
+}
+
+.signup button:hover {
+    color:#fff;
+    border-color: #fff;
+    background:#274F35;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 2vh;
+}
+
+/* ----------------------------------------------------About page */
+
+.square-about {
+
+    height: 70vh;
+    width: 90vw;
+    background-color:rgba(192,192,192,0.8);
+    position: relative;
+    margin-left: 5vw; 
+    margin-right:5vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    text-align: center;
+    border-radius: 2rem;
+
+}
+
+
+.box  {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#274F35;
+    width: 20vw;
+    text-align:left;
+    margin: 50px; 50px;
+
+}
+
+
+
+/* ----------------------------------------------------Sign Up page */
+
+
+.form-square-signup {
+
+    height: 70vh;
+    width: 50vw;
+    background-color:rgba(192,192,192,0.7);
+    position: relative;
+    margin-left: 25vw; 
+    margin-right: 25vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    text-align: center;
+    border-radius: 5rem;
+
+}
+
+.form-square-signup p {
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 20px; 10px;
+}
+
+.label {
+    color:#274F35;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.input, .textarea {
+    background-color: rgba(118, 156, 75, 0.5);
+    color:#fff;
+    border: 2px solid #274F35;
+    border-radius: 3px;
+    margin: 5px; 0;
+}
+
+.input:hover, .textarea:hover {
+    background-color: rgba(118, 156, 75, 0.5);
+    color:#fff;
+    border: 2px solid #274F35;
+    border-radius: 3px;
+    margin: 5px; 0;
+}
+
+
+.sg-button {
+    color: #fff;
+    border-color:#fff;
+    background: #274f35;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.sg-button:hover {
+    color: #274F35;
+    border-color:#274f35;
+    background: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.res-button {
+    color: #fff;
+    border-color:#fff;
+    background: #274f35;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding: 1vh;
+}
+
+.res-button:hover {
+    color: #274F35;
+    border-color:#274f35;
+    background: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding: 1vh;
+}   
+
+
+/* ----------------------------------------------------------Footer */
+.footer-design {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+    background-color:#274F35;
+    color:#fff;
+    border-color:#fff;
+    text-align: center;
+    width: 100vw;
+    height: 7vh;
+    z-index: 1;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    
+}
+
+.footer-design a, i {
+   
+    color:#fff;
+    
+    text-align: center;
+    
+    font-size: large;
+   
+    font-weight: bold;
+}
+
+
